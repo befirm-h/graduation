@@ -1,0 +1,77 @@
+@charset "EUC-KR";
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+div,ul,li /* 여백 초기화 */
+{
+	margin:0;
+	padding:0;
+}
+
+#Menu
+{
+	float:left;
+	width:98%;	
+	height:40px;
+	margin-left:10px;
+	background-color:rgb(215,215,215);
+	
+}
+
+#Menu ul
+{
+	margin-left:20%;
+}
+
+
+#Menu ul li
+{
+	float:left;
+	width:15%;
+	margin:0px auto;
+	text-align:center; /* 글자 가운데 */
+	line-height:40px; /* 글자 가운데 */
+	list-style-type:none;
+}
+
+#Menu ul li:hover 
+{
+	height:40px;
+	background-color:rgb(234,234,234);
+}
+
+
+#Menu a /* 메뉴 글자  */
+{
+	color:#11214a;
+	font-family: 'Jeju Gothic', sans-serif;
+	font-size:15px;
+	padding:0 10px 0 10px;
+}
+
+
+#Menu ul ul /* 서브메뉴  */
+{
+	display:none;
+
+}
+
+#Menu ul li:hover ul
+{
+	
+	margin-left:0px;
+	display:block; /*마우스 올릴 때 서브메뉴 	보이도록! */
+	background-color:rgb(234,234,234);
+	
+}
+#Menu ul li ul li
+{
+	position:relative;
+	width:100%;
+	text-align:center; /* 글자 가운데 */
+	line-height:40px; /* 글자 가운데 */
+	list-style-type:none;
+	background-color:rgb(243,243,243);
+	z-index:1;
+	
+}
+

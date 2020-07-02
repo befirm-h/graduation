@@ -1,0 +1,114 @@
+
+<style>
+@import url(http//fonts.googleapis.com/earlyaccess/nanumgothic.css);//�굹�닎怨좊뵓泥�
+@import url(http//cdn.rawgit.com/young-ha/webfont-archive/master/css/PureunJeonnam.css);//�뫖瑜몄쟾�궓泥� 
+@import url(http//cdn.rawgit.com/young-ha/webfont-archive/20161201/css/Arita-dotum.css);//�븘由щ뵲�룍��
+@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
+
+a{
+	text-decoration: none;
+	text-align: center;
+}
+
+.logo{
+	min-width:1024px;
+	height: 120px;
+	margin-top: 85px;
+    background-image:url('image/logo.JPG');
+    background-size: 100% 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #FFFFFF;
+
+}
+.banner{
+	min-width:1024px;
+	background-image:url('image/banner.png');
+    background-size:100% 100%;
+    padding: 20px;
+	margin-bottom: 10px;
+	height:150px;
+	border: 1px solid #FFFFFF;
+	float: right;
+	text-align: center;
+    font-family: 'Nanum Brush Script';
+	color:#FFFFFF;
+	font-size:20px;
+	opacity:0.85;
+}
+#container {
+    font-family:'Arita-dotum', �룍��;
+	text-decoration: none;
+	width: 940px;
+	margin: 0px auto;
+	padding: 20px; /*�뙣�뵫*/
+	border: 1px solid #FFFFFF; /*�뀒�몢由�*/
+		min-width:1024px;
+	
+}
+
+.header {
+	color: #8C8C8C;
+	font-family:'Arita-dotum', �룍��;
+	font-size:12px;
+	text-decoration: none;
+	padding: 20px;
+	margin-bottom: 20px;
+	
+	border: 1px solid #FFFFFF;
+	float: right;
+	text-align: right;
+
+}
+
+.headermenu {
+	text-decoration:none;
+	font-size:18px;
+	margin-top:5px;
+	margin-bottom:0px;
+	text-align: center;
+	color: #8c8c8c;
+}
+.submenu{
+		font-family:'Arita-dotum', �룍��;
+		font-size:18px;
+		margin-top:0px;
+		margin-bottom:30px;
+		color: #FFFFFF;
+		background-color: #bcbcbc;
+		text-align: center;
+		display: none;
+}
+
+#content {
+	font-family:'PureunJeonnam', �룍��;
+	text-decoration: none;
+	width: 900px;
+	padding: 20px;
+	margin-bottom: 20px;
+	float: right;
+	border: 1px solid #bcbcbc;
+		min-width:1024px;
+	
+}
+
+#sidebar {
+	font-family:'PureunJeonnam', �룍��;
+	width: 260px;
+	padding: 20px;
+	margin-bottom: 20px;
+	float: left;
+	border: 1px solid #bcbcbc;
+		min-width:1024px;
+	
+}
+
+#footer {
+	font-family:'PureunJeonnam', �룍��;
+	clear: both;
+	padding: 20px;
+	border: 1px solid #bcbcbc;
+		min-width:1024px;
+	
+}
+</style>

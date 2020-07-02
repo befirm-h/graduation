@@ -1,0 +1,43 @@
+@charset "EUC-KR";
+import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+.list
+{
+		min-width:1024px;
+		width:90%;
+		font-family:'Jeju Myeongjo', serif;	
+		text-align:center;
+		
+}
+.list_table
+{
+		text-align:center;
+		font-family:font-family: 'Jeju Gothic', sans-serif;
+
+		
+		
+}
+.list_table thead th
+{
+	font-family: "Times New Roman", Times, serif;
+	color:#11214a;
+	height:30px;
+	line-height:30px;
+	font-size:15px;
+	text-align:center;
+	
+}
+
+.list_table tbody td
+{
+	color:6cc091;
+	font-family:'Jeju ', serif;
+	border:2px solid rgb(243,243,243);
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	
+	
+}
