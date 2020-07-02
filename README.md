@@ -1,4 +1,4 @@
-2018-1 Graduation
+2018-1 Graduation Project
 ![메인](https://user-images.githubusercontent.com/19584588/86335742-de0a9b80-bc89-11ea-84a1-a7bbbb0efa56.png)
 
 
