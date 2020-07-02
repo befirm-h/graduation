@@ -220,7 +220,7 @@ if(nowBlock> 1) {
 <input type="hidden" name="nowPage" id="nowPage" value="<%=nowPage%>">
 </form>
 
-   <>
+
     <input type="hidden" name="idx">  <%
     if (session.getAttribute("id") == null || !(session.getAttribute("id").equals("rhksflwk"))) {}
     else{ %>    
